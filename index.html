@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+body,td,th {
+	font-family: material-icons;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 100;
+}
+</style>
+<style>
+
+  #canvas {
+                position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: none;
+        }
+        .content{
+      position: absolute;
+    z-index: 11;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.splash{
+  position: relative;
+  }
+  img#qq {
+    width: 128px;
+    background-size: cover;
+    border-radius: 200px;
+    box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
+    border: 3px solid #00BFFF;
+    opacity: 1;
+    margin: 0 auto;
+	margin-bottom: 20px;
+	transition: all 1.0s;  
+}
+#qq:hover {
+    box-shadow: 0 0 10px #00BFFF;
+    -webkit-box-shadow: 0 0 19px #00BFFF;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg); 	/* IE 9 */
+    -moz-transform:rotate(360deg); 	/* Firefox */
+    -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+    -o-transform:rotate(360deg); 	/* Opera */
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+</style>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+<meta http-equiv=”X-UA-Compatible” content=”IE=edge,chrome=1”>
+<Link Rel="SHORTCUT ICON" href="./favicon.ico">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+<title>OneVercelDrive</title>
+	<!--MDUI引用-->
+	 <!--CSS引用-->
+   <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.0/skins/default/aliplayer-min.css" />
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+  integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
+  crossorigin="anonymous"
+/>
+	<link
+  rel="stylesheet"
+  href="css/materiality.min.css"
+/>
+	<!--
+		<link
+  rel="stylesheet"
+  href="css/mdui.min.css"
+/>-->
+	<!--JS引用-->
+	<script
+  src="js/mdui.min.js"
+></script>
+		<script
+  src="js/darkmode.min.js"
+></script>
+		<script
+  src="js/materiality.min.js"
+></script>
+			<script src="js/smoothscroll.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.0/aliplayer-min.js"></script>
+
+</head>
+	<!--导航栏-->
+<body class="mdui-drawer-body-left  mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
+	<!--顶栏开始-->
+<header class="mdui-appbar mdui-appbar-fixed">
+<div class="mdui-toolbar mdui-color-theme">
+<span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+<a href="./"target="_blank" class="mdui-typo-headline">OneVercelDrive</a>
+<div class="mdui-toolbar-spacer"></div>
+<em class="mdui-icon material-icons" id="dark_toggle_icon"></em></div>
+</header>
+	<!--顶栏结束-->
+<div class="mdui-drawer" id="drawer">
+<!--普通菜单开始-->
+<div class="mdui-list" mdui-collapse="{accordion: true}">
+</form>
+	<!--按钮区域-->
+<a href="./index.html" class="mdui-list-item mdui-ripple" id="home-url">
+<i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+<div class="mdui-list-item-content mdui-m-r-4">首页</div>
+</a>
+</div>
+</div>
+</div>
+<div class="page-content">
+<div class="translate-box"></div>
+<div class="mdui-container" id="main">
+	<!--标记为最顶端-->
+<div class="anchor" id="top"></div>
+	<!--标记为最顶端结束-->
+
+<!--卡片-->
+<div class="mdui-card mdui-hoverable mdui-m-y-3">
+<div class="mdui-card-primary">
+</div>
+<div class="mdui-card-content mdui-typo">
+  <h1 class="mdui-card-primary-title mdui-text-color-theme-accent" align="center">
+    <img src="img/OneVercelDrive.png" alt="LantaWrt-K2P(A2)" width="200">
+    <br>OneVercelDrive<br>
+  
+  </h1>
+<h2 class="mdui-card-primary-title mdui-text-color-theme-accent">欢迎！</h2><br>
+您好！欢迎来到OneVercelDrive的页面！OneVercelDrive是一个基于Cloudreve使用OneDrive<del>套娃</del>的网盘<br>
+为了追求更稳定的服务，OneVercelDrive的Cloudreve服务在Vercel反代运行<br>
+项目主要负责人：<a href="https://lanta.cyou">RealLanta</a><br>
+<div align="center">
+  <a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="https://vercelod.vercel.app/">立即使用</a>
+  </div>
+  <h2 class="mdui-card-primary-title mdui-text-color-theme-accent">社交媒体</h2><br>
+  <div align="center">
+  <a class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" href="https://t.me/OneVercelDrive">Telegram Channel</a>
+</div>
+</div>
+</div>
+	<!--卡片结束-->
+	
+<html><body>
+</body></html>
+</div>
+<footer class="mdui-color-theme">
+<div class="footer-icons mdui-col-xs-3 mdui-valign">
+</div>
+<div class="footer-copyright mdui-col-xs-6 mdui-valign">
+<div class="mdui-center">Copyright © 2022 <a href="./"target="_blank">OpticTV</a></div>
+</div>
+<div class="footer-credit mdui-col-xs-3 mdui-valign">
+<div class="mdui-center">
+
+</div>
+</div>
+</footer>
+</div>
+<a class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent mdui-fab-hide" id="scrolltop" href="#top"><i class="mdui-icon material-icons">expand_less</i></a>
+<script src="./autoload.js"></script>
+</body>
+</html>
